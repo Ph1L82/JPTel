@@ -82,8 +82,9 @@
                 </div>
 
                 <div class="links">
-                    <a href="#">Consumo Telefonía</a>
-                    <a href="https://forge.laravel.com">Acerca de..</a>
+                    <a href="/consumption">Consumo Telefonía</a>
+                    <a href="/help">Ayuda</a>
+                    <a href="/about">Acerca de..</a>
                     <a href="https://github.com/Ph1L82/JPTel">GitHub</a>
                 </div>
             </div>

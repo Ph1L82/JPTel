@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace jptel\Http\Controllers;
 
-use App\AccountCode;
+use jptel\AccountCode;
 use Illuminate\Http\Request;
 
 class AccountCodeController extends Controller
@@ -41,7 +41,7 @@ class AccountCodeController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\AccountCode  $accountCode
+     * @param  \jptel\AccountCode  $accountCode
      * @return \Illuminate\Http\Response
      */
     public function show(AccountCode $accountCode)
@@ -52,7 +52,7 @@ class AccountCodeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\AccountCode  $accountCode
+     * @param  \jptel\AccountCode  $accountCode
      * @return \Illuminate\Http\Response
      */
     public function edit(AccountCode $accountCode)
@@ -64,7 +64,7 @@ class AccountCodeController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\AccountCode  $accountCode
+     * @param  \jptel\AccountCode  $accountCode
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, AccountCode $accountCode)
@@ -75,7 +75,7 @@ class AccountCodeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\AccountCode  $accountCode
+     * @param  \jptel\AccountCode  $accountCode
      * @return \Illuminate\Http\Response
      */
     public function destroy(AccountCode $accountCode)

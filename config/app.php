@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        jptel\Providers\AppServiceProvider::class,
+        jptel\Providers\AuthServiceProvider::class,
+        // jptel\Providers\BroadcastServiceProvider::class,
+        jptel\Providers\EventServiceProvider::class,
+        jptel\Providers\RouteServiceProvider::class,
 
         /**
          * MAATWEBSITE EXCEL

@@ -1,6 +1,6 @@
 <?php
 
-namespace mktccrep;
+namespace jptel;
 
 use Illuminate\Database\Eloquent\Model;
 

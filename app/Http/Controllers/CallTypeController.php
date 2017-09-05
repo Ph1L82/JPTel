@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace jptel\Http\Controllers;
 
-use App\CallType;
+use jptel\CallType;
 use Illuminate\Http\Request;
 
 class CallTypeController extends Controller
@@ -41,7 +41,7 @@ class CallTypeController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\CallType  $callType
+     * @param  \jptel\CallType  $callType
      * @return \Illuminate\Http\Response
      */
     public function show(CallType $callType)
@@ -52,7 +52,7 @@ class CallTypeController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\CallType  $callType
+     * @param  \jptel\CallType  $callType
      * @return \Illuminate\Http\Response
      */
     public function edit(CallType $callType)
@@ -64,7 +64,7 @@ class CallTypeController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\CallType  $callType
+     * @param  \jptel\CallType  $callType
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, CallType $callType)
@@ -75,7 +75,7 @@ class CallTypeController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\CallType  $callType
+     * @param  \jptel\CallType  $callType
      * @return \Illuminate\Http\Response
      */
     public function destroy(CallType $callType)
